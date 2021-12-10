@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html ",
+    "build": "parcel build src/index.html --public-url ./",
     "test": "jest",
     "lint": "eslint --ignore-path ./.gitignore --fix \"./**/*.{js,ts}\"",
     "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\""
@@ -22,5 +23,6 @@
   },
   "browserslist": [
     "last 2 Firefox versions"
-  ]
+  ],
+  "dependencies": {}
 }
